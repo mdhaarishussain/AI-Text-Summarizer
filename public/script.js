@@ -39,7 +39,7 @@ function submitData(e) {
     };
 
     // Send the text to the server using fetch API
-    fetch('/summarize', requestOptions)
+    fetch('/api/summarize', requestOptions)
         .then(response => {
             if (!response.ok) {
                 throw new Error('Network response was not ok');
