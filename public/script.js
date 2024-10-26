@@ -91,3 +91,8 @@ function disableDarkMode() {
     moonIcon.classList.remove('hidden');
     localStorage.setItem('darkMode', null);
 }
+fetch('/api/summarize', requestOptions)
+
+app.post('/api/summarize', (req, res) => {
+  // Summarize functionality here
+});
