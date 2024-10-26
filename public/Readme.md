@@ -16,7 +16,7 @@ This project demonstrates the practical application of API integration and web d
 - Work with third-party APIs (Hugging Face)
 - Build a full-stack web application
 - Implement modern UI/UX features
-- Handle API authentication securely
+- Handle API authentication securely.
 
 ## ✨ Features
 
