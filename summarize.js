@@ -35,7 +35,3 @@ async function summarizeText(text) {
 
 // Allows for summarizeText() to be called outside of this file
 module.exports = summarizeText;
-catch (error) {
-    console.error("Error during summarization:", error.response ? error.response.data : error.message);
-    throw new Error("Summarization failed"); // Throw an error to be handled by the calling function
-}
