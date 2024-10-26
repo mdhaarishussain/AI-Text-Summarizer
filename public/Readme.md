@@ -1,8 +1,22 @@
 # 🤖 AI Text Summarizer
 
-A modern web application that leverages the Hugging Face API (specifically the BART-large-CNN model) to generate concise summaries of long-form text content. Built with Node.js and Express on the backend, and featuring a responsive, dark-mode compatible frontend.
+A modern web application that leverages the Hugging Face API (specifically the BART-large-CNN model) to generate concise summaries of long-form text content. This project was developed as part of the Postman Academy Project Based Learning course - "Build an AI Text Summarizer App".
 
-![Demo Screenshot](https://via.placeholder.com/800x400?text=AI+Text+Summarizer+Demo)
+<div align="center">
+  <img src="./images/light_mode.png" alt="Light Mode Screenshot" width="800"/>
+  <p><em>Light Mode</em></p>
+  
+  <img src="./images/dark_mode.png" alt="Dark Mode Screenshot" width="800"/>
+  <p><em>Dark Mode</em></p>
+</div>
+
+## 📝 Project Overview
+
+This project demonstrates the practical application of API integration and web development skills learned through Postman's educational program. It showcases how to:
+- Work with third-party APIs (Hugging Face)
+- Build a full-stack web application
+- Implement modern UI/UX features
+- Handle API authentication securely
 
 ## ✨ Features
 
@@ -75,9 +89,13 @@ ai-text-summarizer/
 └── package.json
 ```
 
-## 💻 API Endpoints
+## 💻 API Integration
 
-### POST `/summarize`
+### Hugging Face API
+The project uses the BART-large-CNN model through Hugging Face's inference API for text summarization.
+
+### Local API Endpoint
+#### POST `/summarize`
 Accepts text content and returns a summarized version.
 
 #### Request Body
@@ -91,10 +109,10 @@ Accepts text content and returns a summarized version.
 - `max_length`: 100 (default)
 - `min_length`: 30 (default)
 
-## 🎨 Customization
+## 🎨 UI Features
 
 ### Themes
-The application supports both light and dark modes. Theme preferences are stored in localStorage and can be toggled via the UI.
+The application supports both light and dark modes with a seamless toggle feature.
 
 #### Light Theme Colors
 - Background: `#CADCFC`
@@ -105,18 +123,6 @@ The application supports both light and dark modes. Theme preferences are stored
 - Background: `#00246B`
 - Text Primary: `#CADCFC`
 - Container Background: `#003399`
-
-## 🤝 Contributing
-
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
-## 📝 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## 🔒 Security
 
@@ -132,9 +138,27 @@ Common issues and solutions:
 2. **Text Length Errors**: Verify your input is between 200 and 100,000 characters
 3. **Server Connection**: Check if the server is running on port 3000
 
+## 📚 Learning Resources
+
+- [Postman Student Program](https://www.postman.com/student-program/student-expert/)
+- [Postman Academy](https://academy.postman.com/)
+- [Hugging Face Documentation](https://huggingface.co/docs)
+
+## 👥 Credits
+
+This project was created as part of the Postman Academy Project Based Learning curriculum. Special thanks to:
+- Postman Education team for the comprehensive course material
+- Hugging Face for providing the AI model API
+- The open-source community for various tools and libraries used
+
 ## 📞 Support
 
-For support, please open an issue in the GitHub repository.
+For support:
+1. Check the [Postman Learning Center](https://learning.postman.com/)
+2. Join the [Postman Community](https://community.postman.com/)
+3. Open an issue in this project's repository
 
 ---
-Made with ❤️ using Node.js and Hugging Face API
+<div align="center">
+Made with ❤️ as part of the Postman Academy Project Based Learning Program
+</div>
