@@ -1,5 +1,5 @@
 const express = require('express');
-const summarizeText = require('./summarize');
+const summarizeText = require('../summarize');
 const app = express();
 
 app.use(express.json());
