@@ -3,10 +3,10 @@
 A modern web application that leverages the Hugging Face API (specifically the BART-large-CNN model) to generate concise summaries of long-form text content. This project was developed as part of the Postman Academy Project Based Learning course - "Build an AI Text Summarizer App".
 
 <div align="center">
-  <img src="./images/light_mode.png" alt="Light Mode Screenshot" width="800"/>
+  <img src="./public/images/light_mode.png" alt="Light Mode Screenshot" width="800"/>
   <p><em>Light Mode</em></p>
   
-  <img src="./images/dark_mode.png" alt="Dark Mode Screenshot" width="800"/>
+  <img src="./public/images/dark_mode.png" alt="Dark Mode Screenshot" width="800"/>
   <p><em>Dark Mode</em></p>
 </div>
 
